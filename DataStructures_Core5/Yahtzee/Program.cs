@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Yahtzee
 {
@@ -58,8 +54,8 @@ namespace Yahtzee
              *  call DisplayScorecards
              *  
              *  display a message about who won
-             */ 
-             
+             */
+
             Console.ReadLine();
         }
 
@@ -352,7 +348,7 @@ namespace Yahtzee
                 return 25;
             else
             */
-                return 0;
+            return 0;
 
         }
 
@@ -371,7 +367,7 @@ namespace Yahtzee
                 return 30;
             else
             */
-                return 0;
+            return 0;
         }
 
         // takes a data structure that represents all of the counts as a parameter
@@ -387,7 +383,7 @@ namespace Yahtzee
                 return 40;
             else
             */
-                return 0;
+            return 0;
         }
 
         // scores a score card item based on the set of dice
